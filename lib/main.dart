@@ -22,8 +22,9 @@ class MyApp extends StatelessWidget {
             Stack(
               children: [
                 Container(
+                  height: 150,
                   decoration: BoxDecoration(
-                    color: Color(0xfff3f3f3),
+                    color: Color(0xffE7E7E7),
                     borderRadius: BorderRadius.only(
                       bottomLeft: Radius.circular(
                         80,
